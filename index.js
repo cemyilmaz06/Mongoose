@@ -12,7 +12,7 @@ app.all('/', (req, res) => {
     res.send('WELCOME TO BLOG APİ')
 })
 
-
+require('./src/dbConnection')
 
 app.use(require('./src/errorHandler'))
 
