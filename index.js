@@ -1,5 +1,6 @@
 'use strict'
 
+
 const express=require('express')
 const app = express()
 
@@ -15,5 +16,11 @@ app.all('/', (req, res) => {
 require('./src/dbConnection')
 
 app.use(require('./src/errorHandler'))
+
+
+
+
+
+
 
 app.listen(PORT, () => console.log('Running: http://127.0.0.1:' + PORT))
