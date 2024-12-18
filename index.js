@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8000;
 // Accept JSON:
 app.use(express.json());
 // DB CONNECTION with normal function
-require("./src/config/dbConnection")();
+require("./src/config/dbConnection");
 // DB CONNECTION with with class
 //require("./src/config/dbConnection");
 
