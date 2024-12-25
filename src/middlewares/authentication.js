@@ -4,10 +4,3 @@
 ------------------------------------------------------- */
 // Mongoose:
 
-const { mongoose } = require('../configs/dbConnection')
-/* ------------------------------------------------------- */
-
-const blogSchema = new mongoose.Schema({
-    
-})
-
