@@ -6,7 +6,7 @@
 
 const { mongoose } = require('../configs/dbConnection')
 /* ------------------------------------------------------- */
-
+require(('dotenv')).config
 const blogSchema = new mongoose.Schema({
     name: {
         type: String,
