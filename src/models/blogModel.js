@@ -7,7 +7,7 @@
 const { mongoose } = require('../configs/dbConnection')
 /* ------------------------------------------------------- */
 require('dotenv').config()
-const blogSchema = new mongoose.Schema({
+const BlogSchema = new mongoose.Schema({
     name: {
         type: String,
         trim: true,
@@ -20,4 +20,4 @@ const blogSchema = new mongoose.Schema({
     }
 })
 
-module.exports()
+module.exports = mongoose.model('Blog', BlogSchema)
